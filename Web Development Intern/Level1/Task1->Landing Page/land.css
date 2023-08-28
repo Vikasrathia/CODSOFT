@@ -1,0 +1,476 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(52, 37, 14); */
+    height: 120vh;
+    background-color: rgb(37, 22, 54);
+    height: 300vh;
+}
+.container{
+    margin-top:0;
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/BACK2.jpeg); 
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+.secondsection nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondsection nav ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 38rem;
+    margin-top: -3rem;
+    font-size: 1rem;
+    list-style: none;
+}
+.secondsection nav ul li a{
+    list-style: none;
+    margin: 0 23px;
+    color: white;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#logo{
+    border-radius: 100%;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    border: 3px solid rgb(166, 68, 68);
+}
+.firstsection h1{
+    margin-left: 4rem;
+    margin-top: -4rem;
+    font-size: 2.5rem;
+    font-family: Helvetica;
+    color: white;
+}
+.secondsection #head{
+    color: white;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: Helvetica;
+    margin-top: 7.2rem;
+    margin-left: -12rem;
+}
+.secondsection #head2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Helvetica;
+    margin-top: 1.5rem;
+    margin-left: -11rem;
+}
+.secondsection #para{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Helvetica;
+    margin-top: 1rem;
+    margin-left: -11rem;
+}
+.email{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -12rem;
+}
+.email input{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 0.8rem;
+    font-weight:normal;
+    padding: 0.7rem 1rem;
+    padding-right: 9rem;
+}
+
+.email button{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    padding: 0.6rem 2.7rem;
+    border-radius: 5px;
+}
+hr {
+    border-style: dotted;
+    color: rgb(73, 56, 56);
+    border-width: 7px;
+    height: 3px;
+    border-bottom: 0;
+    width: 11%;
+    margin-top: 11.4rem;
+    margin-left: 33vw;
+    margin-bottom: 80px;
+    margin-top: 14rem;
+}
+.thirdsection h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-left: -19rem;
+    text-align: center;
+}
+.thirdsection .img-service{
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+.thirdsection .img-service img{
+    width:100px ;
+    height: 100px;
+    align-items: center;
+    margin-left: 10rem;
+    border-radius: 10%;
+    border: 3px solid white;
+}
+.thirdsection .desc-service{
+    color: white;
+    justify-content: space-between;
+
+
+}
+.thirdsection .desc-service .aero h1 {
+   margin-left: -47em;
+   font-size: 1.4rem;
+   margin-top: -1rem;
+   color: white;
+}
+.thirdsection .desc-service .aero h2{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+.thirdsection .desc-service .hotel h1 {
+    margin-left: -31rem;
+    font-size: 1.4rem;
+    margin-top: -5rem;
+ }
+ .thirdsection .desc-service .hotel h2{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 26rem;
+    margin-top: 1rem;
+}
+ .thirdsection .desc-service .bus h1 {
+    margin-left: 6rem;
+    font-size: 1.4rem;
+    margin-top: -5rem;
+ }
+ .thirdsection .desc-service .bus h2{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 44rem;
+    margin-top: 1rem;
+}
+ .thirdsection .desc-service .food h1 {
+    margin-left: 39rem;
+    font-size: 1.4rem;
+    margin-top: -5rem;
+ }
+ .thirdsection .desc-service .food h2{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 62rem;
+    margin-top: 1rem;
+}
+.thirdsection .dest {
+    border-style: dotted;
+    color: rgb(73, 56, 56);
+    border-width: 7px;
+    height: 3px;
+    border-bottom: 0;
+    width: 11%;
+    margin-top: 11.4rem;
+    margin-left: 33vw;
+    margin-bottom: 80px;
+    margin-top: 7rem;
+}
+.fourthsection h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-left: -19rem;
+    text-align: center;
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    background-color: #321a43;
+    margin-left: 5rem;
+    margin-right: 0;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    margin-left: 4rem;
+    color: white;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    margin-left: 3rem;
+    /* border-radius: 10%; */
+    border: 3px solid white;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    /* border-radius: 10%; */
+    border: 3px solid white;
+}
+.featurtes h2{
+    font-size:50px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+.features p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.thirdsection .dest2 {
+    border-style: dotted;
+    color: rgb(73, 56, 56);
+    border-width: 7px;
+    height: 3px;
+    border-bottom: 0;
+    width: 11%;
+    margin-top: 11.4rem;
+    margin-left: 33vw;
+    margin-bottom: 60px;
+    margin-top: 3rem;
+}
+.fourthsection .heads{
+    color: white;
+    font-size: 2.5rem;
+    font-family: Helvetica;
+    margin-top:1rem;
+    margin-left:-15rem;
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -10rem;
+    margin-left: -12rem;
+}
+.pricing-card{
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+    background-color: rgb(175, 125, 175);
+}
+.pricing-card:hover{
+    font-size: 20px;
+}
+.price{
+    font-size: 24px;
+    color: #f7fcfe;
+    margin: 10px 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin: 5px 0;
+}.btn{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #4c8dd2;
+    font-size:20px ;
+}
+.fifthsection h3{
+    margin-left: -2rem;
+    font-size: 2.8rem;
+    color: white;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifthsection .head2{
+    margin-left: -2rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifthsection .para{
+    margin-left: -2rem;
+    font-size: 20pxrem;
+    color: white;
+    margin-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifthsection .email{
+    margin-left: -66rem;
+}
+.dest4{
+    margin-top: -8rem;
+}
+.fifthsection #hand{
+    margin-left: 58rem;
+    margin-top: -14rem;
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 14px;
+    margin-left: -16rem;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 1px;
+    color: white;
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition:transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordian .content{
+    background:#303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-heigth 0.5s, padding 0.5s;
+}
+.accordian input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 3px 20px;
+}
+.accordian input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.dest5{
+    margin-top: -2rem;
+    margin-bottom: 5rem;
+}
+.dest6{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.footer{
+    padding: 50px 15% 10px;
+    color: #777;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: white;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer #lang{
+    background-color: rgb(34, 21, 37);
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 1rem;
+}
+.two{
+    background-color: #26122a;
+    height: 8rem;
+    width: 100%;
+    margin-left: -8rem;
+}
+.two .foot-img{
+    align-items: center;
+    padding: 16px;
+    margin-left: 43rem;
+    cursor: pointer;
+    margin-top: 30px;
+} 
+.two .foot-img .image{
+    padding-left: 7px;
+
+}
+.two .foot-img .image1{
+    margin-left: 7px;
+background-color: white;
+border-radius: 100%;
+}
+.two .foot-head{
+    color: white;
+    margin-left: 37rem;
+    font-size: 1rem;
+}
