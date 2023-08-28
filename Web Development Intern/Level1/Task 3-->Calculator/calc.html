@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Calculator</h1>
+    </div>
+    <div class="page">
+        <input id="display" type="text" placeholder="0" disabled>   
+        <div class="container">
+            <div class="row1">
+                <button class="button_AC" onclick="clearResult()">AC</button>
+                <button class="button_DE" onclick="deleteResult()">DE</button>
+                <button class="button_opr" onclick="toggleButton()">+/-</button>
+                <button class="button_opr" onclick="appendToResult('/')">/</button>
+            </div>
+            <div class="row2">
+                <button class="button" onclick="appendToResult('7')">7</button>
+                <button class="button" onclick="appendToResult('8')">8</button>
+                <button class="button" onclick="appendToResult('9')">9</button>
+                <button class="button_opr" onclick="appendToResult('*')">x</button>
+            </div>
+            <div class="row3">
+                <button class="button" onclick="appendToResult('4')">4</button>
+                <button class="button" onclick="appendToResult('5')">5</button>
+                <button class="button" onclick="appendToResult('6')">6</button>
+                <button class="button_opr" onclick="appendToResult('-')">-</button>
+            </div>
+            <div class="row4">
+                <button class="button" onclick="appendToResult('1')">1</button>
+                <button class="button" onclick="appendToResult('2')">2</button>
+                <button class="button" onclick="appendToResult('3')">3</button>
+                <button class="button_opr" onclick="appendToResult('+')">+</button>
+            </div>
+            <div class="row5">
+                <button class="button_opr" onclick="appendToResult('.')">.</button>
+                <button class="button" onclick="appendToResult('0')">0</button>
+                <button class="button_equal" onclick="calculate()">=</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+
+</html>
